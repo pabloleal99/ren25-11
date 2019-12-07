@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "base": "^3.0.0",
+    "jetifier": "^1.6.4",
     "native-base": "^2.13.8",
     "react": "^16.9.0",
     "react-native": "0.61.4",

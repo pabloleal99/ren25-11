@@ -32,7 +32,7 @@ export default class Details extends Component{
           />
           <TextInput 
              style= {{height:50, fontSize:30, borderColor:'black'}}
-             placeholder='Direccion'
+             placeholder='Cargo'
           />
           <TextInput 
              style= {{height:50, fontSize:30, borderColor:'black'}}
@@ -46,8 +46,20 @@ export default class Details extends Component{
         <Button
           title="Cancelar"
           color="purple"
-          onPress={() => Alert.alert('Se ha Cancelado con exito!')}
+          onPress={() => Alert.alert('Se ha cancelado con exito!')}
         /> 
+        <Button
+          title="Actualizar"
+          color="green"
+          onPress={() => Alert.alert('Se ha actualizado con exito!')}
+        />
+        <Button
+          title="Eliminar"
+          color="blue"
+          onPress={() => Alert.alert('Se ha eliminado con exito!')}
+        />
+
+
         <Button
                    title='volver a Home' onPress = {()=>{
                        this.props.navigation.goBack();

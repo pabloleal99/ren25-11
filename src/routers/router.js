@@ -4,6 +4,7 @@ import Home from './../pages/Home';
 import Details from './../pages/Details';
 import Rendicion from './../pages/Rendicion';
 import Login from './../pages/Login';
+
 const AppNavigator = createStackNavigator({
     Home:{
         screen: Home,
